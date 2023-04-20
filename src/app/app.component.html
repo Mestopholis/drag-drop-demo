@@ -4,5 +4,5 @@
   <button (click)="uploadFiles()">Upload Files</button>
 </form> -->
 
-<file-upload [control]="fileUploadControl" [(ngModel)]="uploadedFiles" name="files"></file-upload>
-<button (click)="uploadFiles()">Upload Files</button>
+<file-upload class="fileUpload" [control]="fileUploadControl" [(ngModel)]="uploadedFiles" name="files"></file-upload>
+<button (click)="uploadFiles()" class="uploadBtn">Upload Files</button>
